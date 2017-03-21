@@ -1,0 +1,15 @@
+{
+  "title": "shared-flow-types",
+  "name": "shared-flow-types",
+  "description": "http://stackoverflow.com/questions/42911949/how-to-share-the-same-type-definition-in-two-files",
+  "author": "Evgueni Naverniouk",
+  "license": "UNLICENSED",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "flow": "flow"
+  },
+  "dependencies": {
+    "flow-bin": "0.42.0"
+  }
+}
