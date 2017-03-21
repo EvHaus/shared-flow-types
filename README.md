@@ -6,7 +6,6 @@ See: http://stackoverflow.com/questions/42911949/how-to-share-the-same-type-defi
 To reproduce issue run:
 
 ```
-yarn
 yarn run flow
 ```
 
