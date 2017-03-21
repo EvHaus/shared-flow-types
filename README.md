@@ -6,6 +6,7 @@ See: http://stackoverflow.com/questions/42911949/how-to-share-the-same-type-defi
 To reproduce issue run:
 
 ```
+yarn
 yarn run flow
 ```
 
@@ -25,3 +26,13 @@ src/file_b.js:3
 ```
 
 How do I get flow to allow me to use the `MySharedType` inside the `/flow/typeExtensions` directory?
+
+
+## Solution
+
+Flow doesn't recognize changes to shared `[libs]` files. So to fix this you simply need to restart the flow server:
+
+```
+./node_modules/.bin/flow stop
+./node_modules/.bin/flow start
+```
