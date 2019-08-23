@@ -1,5 +1,7 @@
 # How to share flow types?
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/EvHaus/shared-flow-types.svg)](https://greenkeeper.io/)
+
 See: http://stackoverflow.com/questions/42911949/how-to-share-the-same-type-definition-in-two-files
 
 
